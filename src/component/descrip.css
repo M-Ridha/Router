@@ -1,0 +1,59 @@
+/* style description page */
+
+
+
+.navdesc{
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 40px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 30px;
+}
+
+.navdesc> h1{
+    color: #1ca44d;
+    font-weight: 300;
+    
+
+}
+
+.navdesc>button{
+    font-weight: 300;
+}
+
+.mdesc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 120px;
+    
+}
+
+.mdesc>.text{
+    padding: 50px;
+    text-align: left;
+    margin: 10px;
+    height:20px;
+    font-size: 30px;
+    
+}
+
+.text>h1 {
+    color:#FFC300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+
+}
+
+.text.mov{
+    font-family:"revert"
+}
+.mdesc>.vid{
+    
+    margin-right: 35px;
+}
+
+

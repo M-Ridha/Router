@@ -1,14 +1,20 @@
 import React from 'react';
 import MovieCard from './Mcard';
+import '../App.css';
 
 
-const MovieList = ({movies}) => {
-    return (
-        
-        <>
-            {movies.map((movie,i)=><MovieCard key={i} MCard={movie}/>)}
-        </>
-    )
-}
+
+const MovieList = ({ movies}) => {
+  return (
+    <>
+      {movies.map((el,i) => (
+        <MovieCard key={i} movie={el} />
+        )
+      )}
+      
+    </>    
+    
+  );
+};
 
 export default MovieList;
